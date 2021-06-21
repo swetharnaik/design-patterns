@@ -1,14 +1,11 @@
-package com.software.design.patterns.factory;
+package com.software.design.patterns.abstractfactory;
 
-public class CottonCloth extends Cloth {
+public interface Cotton {
 
-    public CottonCloth(int id, int rate, String type, String color, String pattern) {
-        super(id, rate, type, color, pattern);
-    }
+    //Get Cotton as Raw Material Details
+    public String getCotton();
 
-    //ToWeave method with a specific implementation for weaving cotton cloth
-    public String toWeave() {
-        return "Mechanism to weave a cotton cloth";
-    }
+    //ToWeave method
+    public String toWeave();
 
 }
