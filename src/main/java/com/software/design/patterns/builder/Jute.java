@@ -15,7 +15,7 @@ public class Jute implements ClothBuilder {
 
     @Override
     public void buildTypeName() {
-        cloth.setTypeName("Jute");
+        cloth.setType("Jute");
     }
 
     @Override

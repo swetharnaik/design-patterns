@@ -3,7 +3,7 @@ package com.software.design.patterns.builder;
 //Process methods followed by all types/subclasses/representations
 public abstract class ClothSteps {
 
-    public abstract void setTypeName(String type);
+    public abstract void setType(String type);
 
     public abstract void setRate(int rate);
 

@@ -15,7 +15,7 @@ public class Nylon implements ClothBuilder {
 
     @Override
     public void buildTypeName() {
-        cloth.setTypeName("Nylon");
+        cloth.setType("Nylon");
     }
 
     @Override

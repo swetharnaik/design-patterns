@@ -15,7 +15,7 @@ public class PureSilk implements ClothBuilder {
 
     @Override
     public void buildTypeName() {
-        cloth.setTypeName("PureSilk");
+        cloth.setType("PureSilk");
     }
 
     @Override

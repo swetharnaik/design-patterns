@@ -15,7 +15,7 @@ public class PureCotton implements ClothBuilder {
 
     @Override
     public void buildTypeName() {
-        cloth.setTypeName("PureCotton");
+        cloth.setType("PureCotton");
     }
 
     @Override

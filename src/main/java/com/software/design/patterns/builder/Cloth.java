@@ -1,7 +1,7 @@
 package com.software.design.patterns.builder;
 
 //Base Class with params but no constructors
-public class Cloth extends ClothSteps {
+public class Cloth { //extends ClothSteps {
 
     private String type;
     private int rate;
@@ -11,7 +11,35 @@ public class Cloth extends ClothSteps {
     private String rawMaterials;
     private String machine;
 
-    @Override
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setRate(int rate) {
+        this.rate = rate;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setPattern(String pattern) {
+        this.pattern = pattern;
+    }
+
+    public void setChemicals(String chemicals) {
+        this.chemicals = chemicals;
+    }
+
+    public void setRawMaterials(String rawMaterials) {
+        this.rawMaterials = rawMaterials;
+    }
+
+    public void setMachine(String machine) {
+        this.machine = machine;
+    }
+
+    /* @Override
     public void setTypeName(String type) {
         this.type=type;
     }
@@ -44,7 +72,7 @@ public class Cloth extends ClothSteps {
     @Override
     public void setMachine(String machine) {
         this.machine=machine;
-    }
+    }*/
 
     @Override
     public String toString() {
